@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>💌</text></svg>">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>La mulți ani! ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Jocul cu inima -->
+    <div id="game">
+      <h1>❤️ Prinde inima! ❤️</h1>
+      <p id="score">❤️ Prinse: 0 / 5</p>
+      <div id="heart"></div>
+    </div>
+
+    <!-- Mesajul de dragoste -->
+    <div id="message" class="hidden">
+      <h2>💌 Mesaj pentru tine 💌</h2>
+      <p>
+
+        La mulți ani, iubita mea! ❤️
+
+Am vrut să iau o felicitare pe care să-ți scriu mesajul asta, dar după cum ai observat am luat un postcard. Așa că îți voi scrie mesajul aici.
+
+Nu știu dacă pot pune în cuvinte cât de mult însemni pentru mine, dar știu că viața mea e mai frummoasa și mai plină de sens de când faci parte din ea. Deși greșesc mult în relația noastră încerc să învăț și evoluez alături de ține. M-ai arătat ce înseamnă răbdarea(pe cât se poate), grijă, apropierea sinceră. M-ai făcut să cred din nou în lucruri simple, dar adevărate și m-ai schimbat cu totul. Cu ține, totul are sens — și liniștea, și nebunia, și planurile, și momentele de tăcere.
+Azi nu vreau doar să-ți spun “la mulți ani”, ci și “mulțumesc”. Pentru toate mesajele de dimineață, pentru toate îmbrățișările pe care mi le dai fără să ți le cer, pentru încrederea ta, pentru felul în care mă priveșți când eu uit cine sunt. Îți mulțumesc că mă alegi în fiecare zi, chiar și atunci când nu sunt cel mai ușor om de iubit.
+Îți doresc o zi de naștere frumoasă, chiar dacă poate nu a fost cum o vrei tu. Dar mai ales, îți doresc să nu uiți niciodată cât de specială eșți. Meriți tot ce e mai bun în lumea asta — și dacă voi putea, voi face tot posibilul să-ți ofer măcar o parte din acel „tot”.
+
+La mulți ani, iubita mea!
+Te iubesc. 💖
+      </p>
+    </div>
+
+    <!-- Slider cu emoji -->
+    <div id="ratingSection" class="hidden">
+      <h3>Sper ca ti-a placut!</h3>
+      <input type="range" min="1" max="10" value="5" id="ratingSlider" />
+      <div id="emojiDisplay">😊</div>
+    </div>
+
+    <!-- Confetti -->
+    <canvas id="confetti-canvas"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
